@@ -1,0 +1,12 @@
+[submodule "submodules/kyria"]
+	path = submodules/kyria
+	url = https://github.com/splitkb/kyria
+[submodule "submodules/Kyria_Case"]
+	path = submodules/Kyria_Case
+	url = https://github.com/aaarsene/Kyria_Case
+[submodule "submodules/kyria_3d_cases"]
+	path = submodules/kyria_3d_cases
+	url = https://github.com/jhelvy/kyria_3d_cases
+[submodule "submodules/tented-kyria-case"]
+	path = submodules/tented-kyria-case
+	url = https://github.com/brokenloop/tented-kyria-case
