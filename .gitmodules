@@ -10,3 +10,6 @@
 [submodule "submodules/tented-kyria-case"]
 	path = submodules/tented-kyria-case
 	url = https://github.com/brokenloop/tented-kyria-case
+[submodule "submodules/zmk"]
+	path = submodules/zmk
+	url = https://github.com/zmkfirmware/zmk
