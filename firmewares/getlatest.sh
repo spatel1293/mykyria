@@ -11,7 +11,7 @@ else
   mkdir -p "$objdate"
   (cd "$objdate"
    curl -i -L -H "Authorization: token $(pass -p github-bot-token)" "$objurl" > "firmeware.zip"
-   unzip "firmeware.zip"
+   unzip "firmeware.zip" || true
   )
 fi
 
