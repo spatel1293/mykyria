@@ -14,7 +14,7 @@ else
    unzip "firmeware.zip"
   )
 
-  ln -s "$objdate" latest
+  ln -fs "$objdate" latest
 fi
 
 if lsblk -f | grep "sda" | grep "NICENANO"; then
