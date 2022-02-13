@@ -26,7 +26,7 @@
    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                                        &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LSHFT  &kp LSHFT        &kp LSHFT  &kp LSHFT  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RCTRL
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &kp LGUI   &kp DEL    &mo NAVI   &kp RET    &kp ESC          &kp RALT   &kp SPACE  &mo NUM    &kp BSPC   &none
+	                                &kp LMETA  &kp DEL    &mo NAVI   &kp RET    &kp ESC          &kp RALT   &kp SPACE  &mo NUM    &kp BSPC   &none
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
@@ -39,7 +39,7 @@
    &kp CAPS   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp F12
    &kp LSHFT  &trans     &trans     &trans     &trans     &trans     &kp LSHFT  &kp LSHFT        &kp LSHFT  &kp LSHFT  &trans     &trans     &trans     &trans     &trans     &kp RCTRL
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                    &kp LGUI   &kp DEL    &kp RET    &kp RET    &kp ESC          &kp RET    &kp SPACE  &trans     &kp BSPC   &kp RALT
+                                    &kp LMETA  &kp DEL    &kp RET    &kp RET    &kp LMETA        &kp RALT   &kp SPACE  &trans     &kp BSPC   &kp RALT
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
@@ -48,11 +48,11 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &none      &none      &none      &none      &none      &none                                                        &none      &none      &none      &none      &none      &kp BSLH
-   &none      &none      &none      &none      &none      &none                                                        &none      &none      &none      &none      &none      &kp SQT
-   &none      &none      &none      &none      &none      &none      &none      &none            &none      &none      &none      &none      &none      &none      &none      &kp RCTRL
+   &trans     &none      &none      &none      &none      &none                                                        &none      &none      &kp UP     &none      &none      &none
+   &trans     &none      &none      &none      &none      &none                                                        &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none
+   &trans     &none      &none      &none      &none      &none      &none      &none            &none      &none      &none      &none      &none      &none      &none      &trans
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &none      &none      &none      &none      &none            &none      &none      &none      &none      &kp RALT
+	                                &none      &none      &none      &trans     &none            &none      &trans     &none      &none      &none
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
