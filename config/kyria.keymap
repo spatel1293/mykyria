@@ -12,7 +12,13 @@
 #define NUM     1
 #define NAVI    2
 
-#define NONE 0
+&left_encoder {
+    status = "disabled";
+};
+
+&right_encoder {
+    status = "disabled";
+};
 
 / {
 	keymap {
