@@ -26,7 +26,7 @@
    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                                        &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LSHFT  &kp LSHFT        &kp LSHFT  &kp LSHFT  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RCTRL
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &kp LMETA  &kp DEL    &mo NAVI   &kp RET    &kp ESC          &kp RALT   &kp SPACE  &mo NUM    &kp BSPC   &none
+	                                &kp LMETA  &kp DEL    &mo NAVI   &kp RET    &kp LMETA        &kp RALT   &kp SPACE  &mo NUM    &kp BSPC   &none
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
@@ -35,11 +35,11 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &kp ESC    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                       &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11
-   &kp CAPS   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp F12
-   &kp LSHFT  &trans     &trans     &trans     &trans     &trans     &kp LSHFT  &kp LSHFT        &kp LSHFT  &kp LSHFT  &trans     &trans     &trans     &trans     &trans     &kp RCTRL
+   &trans     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                       &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11
+   &trans     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp F12
+   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans           &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                    &kp LMETA  &kp DEL    &kp RET    &kp RET    &kp LMETA        &kp RALT   &kp SPACE  &trans     &kp BSPC   &kp RALT
+                                    &trans     &trans     &trans     &trans     &trans           &trans     &trans     &trans     &trans     &trans
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
