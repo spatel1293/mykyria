@@ -13,8 +13,6 @@ else
    curl -i -L -H "Authorization: token $(pass -p github-bot-token)" "$objurl" > "firmeware.zip"
    unzip "firmeware.zip"
   )
-
-  ln -fs "$objdate" latest
 fi
 
 if lsblk -f | grep "sda" | grep "NICENANO"; then
