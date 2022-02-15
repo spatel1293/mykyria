@@ -43,7 +43,7 @@
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
    &trans     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp LEFT_BRACKET
    &trans     &none      &none      &kp PAGE_UP &none     &none                                                        &none      &none      &kp UP     &none      &none      &kp PLUS
-   &trans     &none      &none      &kp PAGE_DOWN &none   &none      &trans     &trans           &trans     &trans     &none      &kp LEFT   &kp DOWN   &kp RIGT   &none      &trans
+   &trans     &none      &none      &kp PAGE_DOWN &none   &none      &trans     &trans           &trans     &trans     &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &trans
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
                                     &trans     &trans     &trans     &trans     &trans           &trans     &trans     &trans     &trans     &trans
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
