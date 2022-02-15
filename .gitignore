@@ -1,0 +1,8 @@
+.west
+artifacts
+bootloader
+build-*
+modules
+tools
+zephyr
+zmk
