@@ -32,7 +32,7 @@
    &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                                        &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mt LSHFT TAB &kp LCTRL     &kp RCTRL  &mt RSHFT TAB &kp N   &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &lt SYM    &kp DEL    &lt NUM RET &kp RET  &mt LMETA RET     &mt RALT SPACE &kp SPACE &lt NUM SPACE &kp BSPC &kp RALT
+	                                &mo SYM    &kp DEL    &lt NUM RET &kp RET  &mt LMETA RET     &mt RALT SPACE &kp SPACE &lt NUM SPACE &kp BSPC &kp RALT
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
