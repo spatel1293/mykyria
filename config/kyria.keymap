@@ -19,7 +19,7 @@
     status = "disabled";
 };
 
-/ {
+ {
 	keymap {
 		compatible = "zmk,keymap";
 
