@@ -49,29 +49,31 @@
 //                                  |          |          |          |             |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+-------------+----------+     +----------+----------+----------+----------+----------+
 			>;
+			
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 		};
 		sym_layer {
 			bindings = <
-// +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
-// |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &trans     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                       &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11
-   &trans     &none      &none      &none      &none      &none                                                        &none      &none      &none      &none      &none      &kp F12
-   &trans     &none      &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none      &none      &none      &none      &none      &trans
-// +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                    &trans     &none      &tog NUM   &trans     &trans           &trans     &trans     &tog NUM   &trans     &trans
-//                                  |          |          |          |          |          |     |          |          |          |          |          |
-//                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
+// +----------+---------------+----------+----------+----------+----------+                                                 +-------------+-------------+-------------+-------------+--------------+----------+
+// |          |               |          |          |          |          |                                                 |             |             |             |             |              |          |
+   &none      &tog DEFAULT    &tog NUM   &tog FUN   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none          &bt BT_CLR
+   &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &kp K_VOL_UP   &kp C_BRI_UP
+   &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &kp C_VOL_DN   &kp C_BRI_DN
+// +----------+---------------+----------+----------+----------+----------+----------+----------+     +----------+----------+-------------+----------+----------------+-------------+--------------+----------+
+                                         &trans     &none      &none      &trans     &trans           &trans     &trans     &trans        &trans        &trans
+//                                       |          |          |          |          |          |     |          |          |             |             |          |
+//                                       +----------+----------+----------+----------+----------+     +----------+----------+-------------+-------------+----------+
 			>;
 		};
 		apx_layer {
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &trans     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp LEFT_BRACKET
-   &trans     &none      &none      &kp PAGE_UP &none     &none                                                        &none      &none      &kp UP     &none      &none      &kp PLUS
-   &trans     &none      &none      &kp PAGE_DOWN &none   &none      &trans     &trans           &trans     &trans     &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &trans
+   &kp ESC    &kp Y      &kp Q      &kp W      &kp E      &kp R                                                        &none      &none      &none      &none      &none      &none
+   &kp N4     &kp LSHFT  &kp A      &kp S      &kp D      &kp TAB                                                      &none      &none      &none      &none      &none      &none
+   &kp N3     &kp LCTRL  &kp X      &kp C      &kp V      &kp F1     &none      &none            &none      &none      &none      &none      &none      &none      &none      &none
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                    &trans     &trans     &trans     &trans     &trans           &trans     &trans     &trans     &trans     &trans
+                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &trans     &none      &mo LOWER  &none      &none
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
