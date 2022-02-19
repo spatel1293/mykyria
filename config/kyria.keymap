@@ -24,15 +24,15 @@
 
 		default_layer {
 			bindings = <
-// +----------+----------+----------+----------    +----------+----------+                                                                   +----------+----------+----------+----------+----------+----------+
-// |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &kp ESC        &kp Q      &kp W      &kp F          &kp P      &kp G                                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
-   &mt LSHFT TAB  &kp A      &kp R      &kp S          &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
-   &kp LCTRL      &kp Z      &kp X      &kp C          &kp V      &kp B         &kp LMETA       &kp CAPS          &kp RCTRL     &mt RSHFT TAB  &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-// +----------+----------+----------+----------    +----------+----------+----------+----------+                +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &lt SYS C_MUTE  &kp DEL    &kp SPC      &lt NUM BSPC    &kp RET           &kp RALT      &lt NUM BSPC   &kp BSPC   &kp DEL    &lt SYS C_PP
-//                                  |          |          |          |          |          |     |          |          |          |          |          |
-//                                  +----------    +----------+----------+----------+----------+                +----------+----------+----------+----------+----------+
+// +--------------+----------+----------+---------------+----------+----------+                                                                  +----------+----------+----------+----------+----------+----------+
+// |              |          |          |               |          |          |                                                                  |          |          |          |          |          |          |
+   &kp ESC        &kp Q      &kp W      &kp F           &kp P      &kp G                                                                         &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
+   &mt LSHFT TAB  &kp A      &kp R      &kp S           &kp T      &kp D                                                                         &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
+   &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp CAPS                 &kp RCTRL  &mt RSHFT TAB  &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+// +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +----------+--------------+----------+----------+----------+----------+----------+----------+
+	                                &lt SYM C_MUTE  &kp DEL    &kp SPC    &lt NUM BSPC    &kp RET                  &kp RALT   &lt NUM BSPC   &kp BSPC   &kp DEL    &lt SYM C_PP
+//                                      |               |          |          |               |          |             |          |              |          |          |          |
+//                                      +---------------+----------+----------+----------+---------------+             +----------+--------------+----------+----------+----------+
 			>;
 			
 			sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp PG_UP PG_DN>;
