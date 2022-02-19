@@ -73,8 +73,8 @@
    &kp N4     &kp LSHFT  &kp A      &kp S      &kp D      &kp TAB                                                        &none       &none      &none      &none      &none      &none
    &kp N3     &kp LCTRL  &kp X      &kp C      &kp V      &kp F1     &none      &none            &none      &none        &none       &none      &none      &none      &none      &none
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +------------+----------+-----------+----------+----------+----------+----------+----------+
-                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &tog DEFAULT &none      &mo DEFAULT &none      &none
-//                                  |          |          |          |          |          |     |         v  |          |           |          |          |
+                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &tog DEFAULT &tog APX   &mo DEFAULT &none      &none
+//                                  |          |          |          |          |          |     |           |           |           |          |          |
 //                                  +----------+----------+----------+----------+----------+     +------------+----------+-----------+----------+----------+
 			>;
 		};
