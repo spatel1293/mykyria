@@ -13,9 +13,11 @@
 #define NUM     1
 #define SYM     2
 
-&left_encoder {
-    status = "disabled";
-};
+/*
+*&left_encoder {
+*    status = "disabled";
+*};
+*/
 
 &right_encoder {
     status = "disabled";
