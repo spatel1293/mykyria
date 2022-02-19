@@ -14,7 +14,7 @@
 #define SYM     2
 
 &left_encoder {
-    status = "enabled";
+    status = "disabled";
 };
 
 &right_encoder {
