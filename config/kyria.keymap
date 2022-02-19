@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 
 #define DEFAULT 0
@@ -13,7 +14,7 @@
 #define SYM     2
 
 &left_encoder {
-    status = "disabled";
+    status = "enabled";
 };
 
 &right_encoder {
@@ -28,11 +29,11 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &kp ESC    &kp Q      &kp W      &kp E      &kp R      &kp T                                                        &kp Y      &kp U      &kp I      &kp O      &kp P      &kp MINUS
-   &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                                        &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mt LSHFT TAB &kp LCTRL     &kp RCTRL  &mt RSHFT TAB &kp N   &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+   &kp ESC    &kp Q      &kp W      &kp F      &kp P      &kp G                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
+   &kp CAPS   &kp A      &kp R      &kp S      &kp T      &kp D                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
+   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &mt LSHFT TAB &kp LCTRL     &kp RCTRL  &mt RSHFT TAB &kp K   &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-	                                &mo SYM    &kp DEL    &lt NUM RET &kp RET  &mt LMETA RET     &mt RALT SPC &kp SPC  &lt NUM SPC &kp BSPC  &mo SYM
+	                           &lt SYM GUI &kp DEL    &lt NUM RET &kp RET  &mt LMETA RET     &mt RALT SPC &kp SPC  &lt NUM SPC &kp BSPC  &lt SYM GUI
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
 //                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
@@ -43,9 +44,9 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &trans     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp LEFT_BRACKET
-   &trans     &none      &none      &kp PAGE_UP &none     &none                                                        &none      &none      &kp UP     &none      &none      &kp PLUS
-   &trans     &none      &none      &kp PAGE_DOWN &none   &none      &trans     &trans           &trans     &trans     &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &trans
+   &trans     &kp N1     &kp N1     &kp N2     &kp N3     &kp N4                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp LEFT_BRACKET
+   &trans     &kp N6     &kp N5     &kp N6     &kp N7     &kp N8                                                       &none      &none      &kp UP     &none      &none      &kp PLUS
+   &trans     &kp N6     &kp N9     &kp N0     &kp PLUS   &kp MINUS  &kp SLASH  &kp ASTERISK     &trans     &trans     &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &trans
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
                                     &trans     &trans     &trans     &trans     &trans           &trans     &trans     &trans     &trans     &trans
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
@@ -56,8 +57,8 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &trans     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                       &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11
-   &trans     &none      &none      &none      &none      &none                                                        &none      &none      &none      &none      &none      &kp F12
+   &trans     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F9     &kp F10    &kp F11
+   &trans     &none      &none      &none      &none      &none                                                        &bt BT_CLR &none      &none      &none      &none      &kp F12
    &trans     &none      &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none      &none      &none      &none      &none      &trans
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
                                     &trans     &none      &tog NUM   &trans     &trans           &trans     &trans     &tog NUM   &trans     &trans
