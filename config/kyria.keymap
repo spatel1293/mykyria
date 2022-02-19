@@ -56,9 +56,9 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &none      &tog DEFAULT    &tog NUM   &tog FUN   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none          &bt BT_CLR
-   &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &kp K_VOL_UP   &kp C_BRI_UP
-   &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &kp C_VOL_DN   &kp C_BRI_DN
+   &none      &tog DEFAULT    &tog NUM   &tog FUN   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none     &bt BT_CLR
+   &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &none     &none
+   &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &none     &none
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
                                          &trans     &none      &none      &trans     &trans           &trans     &trans     &trans        &trans        &trans
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
