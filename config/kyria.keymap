@@ -30,7 +30,7 @@
    &mt LSHFT TAB  &kp A      &kp R      &kp S           &kp T      &kp D                                                                            &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
    &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp CAPS                 &kp PSCRN     &kp TAB        &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                &lt SYM C_MUTE  &kp DEL    &kp SPC    &lt NUM BSPC    &mt LALT RET             &mt LALT RET  &lt NUM BSPC   &kp SPC    &kp DEL    &lt SYM C_PP
+	                                &lt SYM C_MUTE  &kp DEL    &kp SPC    &lt NUM BSPC    &mt LALT RET             &mt LALT RET  &lt NUM SPC   &kp BSPC    &kp DEL    &lt SYM C_PP
 //                                      |               |          |          |               |          |             |             |              |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
@@ -70,12 +70,12 @@
 // +----------+----------+----------+----------+----------+----------+                                                   +-----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                   |           |          |          |          |          |          |
    &kp ESC    &kp Y      &kp Q      &kp W      &kp E      &kp R                                                          &none       &none      &none      &none      &none      &none
-   &kp N4     &kp LSHFT  &kp A      &kp S      &kp D      &kp TAB                                                        &none       &none      &none      &none      &none      &none
-   &kp N3     &kp LCTRL  &kp X      &kp C      &kp V      &kp F1     &none      &none            &none      &none        &none       &none      &none      &none      &none      &none
+   &kp LCTRL  &kp LSHFT  &kp A      &kp S      &kp D      &kp TAB                                                        &none       &none      &none      &none      &none      &none
+   &kp N3     &kp N4     &kp Z      &kp C      &kp V      &kp F1     &none      &none            &none      &none        &none       &none      &none      &none      &none      &none
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +------------+----------+-----------+----------+----------+----------+----------+----------+
-                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &tog DEFAULT &tog APX   &mo DEFAULT &none      &none
-//                                  |          |          |          |          |          |     |           |           |           |          |          |
-//                                  +----------+----------+----------+----------+----------+     +------------+----------+-----------+----------+----------+
+                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &tog APX   &none        &mo DEFAULT &none      &none
+//                                  |          |          |          |          |          |     |          |            |           |          |          |
+//                                  +----------+----------+----------+----------+----------+     +----------+------------+-----------+----------+----------+
 			>;
 		};
 	};
