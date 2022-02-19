@@ -56,9 +56,9 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &none      &tog DEFAULT    &tog NUM   &tog APX   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none     &bt BT_CLR
-   &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &none     &none
-   &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &none     &none
+   &none      &tog DEFAULT    &tog NUM   &tog APX   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &bt BT_CLR
+   &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &kp C_VOL_UP  &kp C_BRI_UP
+   &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &kp C_VOL_DN  &kp C_BRI_DN
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
                                          &trans     &none      &none      &trans     &trans           &trans     &trans     &trans        &trans        &trans
 //                                  |          |          |          |          |          |     |          |          |          |          |          |
@@ -67,15 +67,15 @@
 		};
 		apx_layer {
 			bindings = <
-// +--------------+----------+----------+---------------+----------+----------+                                                                  +----------+----------+----------+----------+----------+----------+
-// |              |          |          |               |          |          |                                                                  |          |          |          |          |          |          |
-   &kp ESC        &kp Q      &kp W      &kp F           &kp P      &kp G                                                                         &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
-   &mt LSHFT TAB  &kp A      &kp R      &kp S           &kp T      &kp D                                                                         &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
-   &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp CAPS                 &kp RCTRL  &mt RSHFT TAB  &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-// +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +----------+--------------+----------+----------+----------+----------+----------+----------+
-	                                &lt SYM C_MUTE  &kp DEL    &kp SPC    &lt NUM BSPC    &kp RET                  &kp RALT   &lt NUM BSPC   &kp BSPC   &kp DEL    &lt SYM C_PP
-//                                      |               |          |          |               |          |             |          |              |          |          |          |
-//                                      +---------------+----------+----------+----------+---------------+             +----------+--------------+----------+----------+----------+
+// +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
+// |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
+   &kp ESC    &kp Y      &kp Q      &kp W      &kp E      &kp R                                                        &none      &none      &none      &none      &none      &none
+   &kp N4     &kp LSHFT  &kp A      &kp S      &kp D      &kp TAB                                                      &none      &none      &none      &none      &none      &none
+   &kp N3     &kp LCTRL  &kp X      &kp C      &kp V      &kp F1     &none      &none            &none      &none      &none      &none      &none      &none      &none      &none
+// +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
+                                    &none      &none      &kp SPC    &kp SPC    &kp RET          &trans     &none      &mo LOWER  &none      &none
+//                                  |          |          |          |          |          |     |          |          |          |          |          |
+//                                  +----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+
 			>;
 		};
 	};
