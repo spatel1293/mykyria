@@ -56,7 +56,7 @@
 			bindings = <
 // +----------+----------+----------+----------+----------+----------+                                                 +----------+----------+----------+----------+----------+----------+
 // |          |          |          |          |          |          |                                                 |          |          |          |          |          |          |
-   &none      &tog DEFAULT    &tog NUM   &tog FUN   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none     &bt BT_CLR
+   &none      &tog DEFAULT    &tog NUM   &tog APX   &none      &none                                                        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none     &bt BT_CLR
    &trans     &none           &none      &none      &none      &none                                                        &none         &none         &none         &none         &none     &none
    &trans     &none           &none      &none      &none      &none      &trans     &trans           &trans     &trans     &none         &none         &none         &none         &none     &none
 // +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
