@@ -11,13 +11,6 @@
 
 
 #define Base   0
-#define L1     1
-#define L2     2
-#define L3     3
-#define L4     4
-#define L5     5
-#define L6     6
-#define L7     7
 
 &right_encoder {
     status = "disabled";
@@ -35,59 +28,12 @@
    &kp LSHFT   	  &kp A      &kp R      &kp S           &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
    &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp PSCRN                &kp CAPS     &kp CAPS    &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                &kp TAB 	&kp BSPC    &kp SPC   &mo L1          &kp RET                  &kp RALT     &mo L2 	&kp BSPC   &kp DEL    &mo L6
+	                                &kp TAB 	&kp BSPC   &kp SPC    &kp BSPC        &kp RET                  &kp RALT      &kp SPC	&kp BSPC   &kp DEL    &kp DEL
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
 			
 			sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp PG_UP PG_DN>;
-		};
-		L1_layer {
-			bindings = <
-// +----------+----------+----------+----------+----------+----------+                                                    +-----------+----------+----------+----------+----------+----------+
-// |          |          |          |          |          |          |                                                    |           |          |          |          |          |          |
-   &kp ESC    &kp PLUS   &kp N1     &kp N2     &kp N3     &kp ASTERISK                                                    &kp AT      &kp LPAR   &kp RPAR   &kp LBRC   &kp RBRC   &kp POUND
-   &kp LSHFT  &kp MINUS  &kp N4     &kp N5     &kp N6     &kp SLASH                                                       &kp BSLH    &kp LBKT   &kp RBKT   &kp SQT    &kp UNDER  &kp DLLR
-   &kp LCTRL  &kp EQUAL  &kp N7     &kp N8     &kp N9     &kp N0     &trans  	   &trans           &trans     &kp RSHFT  &kp PRCNT   &kp LT     &kp GT     &kp DQT    &kp AMPS   &kp CARET
-// +----------+----------+----------+----------+----------+----------+-------------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                    &kp DOT    &trans     &trans     &trans        &trans           &kp RET    &kp SPC    &kp BSPC    &trans     &trans
-//                                  |          |          |          |             |          |     |          |          |           |          |          |
-//                                  +----------+----------+----------+-------------+----------+     +----------+----------+-----------+----------+----------+
-			>;
-			
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
-		};
-		L2_layer {
-			bindings = <
-	// +----------+----------+----------+----------+----------+----------+                                          +----------+----------+----------+----------+----------+----------+
-// |          |          |          |          |          |          |                                                 	|          |          |          |          |          |          |
-   &none      &tog DEFAULT    &tog NUM   &tog APX   &none      &none                                                   	&bt BT_SEL 1 	&bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &bt BT_CLR
-   &trans     &none           &none      &none      &none      &none                                                   	&none         	&none         &none         &none         &kp C_VOL_UP  &kp C_BRI_UP
-   &trans     &none           &none      &none      &none      &none      &trans     &trans      &out OUT_USB     	&out OUT_BLE    &none         &none         &none         &none         &kp C_VOL_DN  &kp C_BRI_DN
-// +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                         &trans     &none      &none      &trans     &trans      &trans     &trans     	&trans        &trans        &trans
-//                                  |          |          |          |          |          |     |          |          	|          |          |          |
-//                                  +----------+----------+----------+----------+----------+     +----------+-----------+----------+----------+----------+
-			>;
-			
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
-		
-		};
-		L3_layer {
-			bindings = <
-	// +----------+----------+----------+----------+----------+----------+                                          +----------+----------+----------+----------+----------+----------+
-// |          |          |          |          |          |          |                                                 	|          |          |          |          |          |          |
-   &none      &tog DEFAULT    &tog NUM   &tog APX   &none      &none                                                   	&bt BT_SEL 1 	&bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &bt BT_CLR
-   &trans     &none           &none      &none      &none      &none                                                   	&none         	&none         &none         &none         &kp C_VOL_UP  &kp C_BRI_UP
-   &trans     &none           &none      &none      &none      &none      &trans     &trans      &out OUT_USB     	&out OUT_BLE    &none         &none         &none         &none         &kp C_VOL_DN  &kp C_BRI_DN
-// +----------+----------+----------+----------+----------+----------+----------+----------+     +----------+----------+----------+----------+----------+----------+----------+----------+
-                                         &trans     &none      &none      &trans     &trans      &trans     &trans     	&trans        &trans        &trans
-//                                  |          |          |          |          |          |     |          |          	|          |          |          |
-//                                  +----------+----------+----------+----------+----------+     +----------+-----------+----------+----------+----------+
-			>;
-			
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
-		
 		};
 	};
 };
