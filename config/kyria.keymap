@@ -15,6 +15,7 @@
 #define Third 2
 #define Fourth 3
 #define Fifth 4
+#define Sixth 5
 
 &right_encoder {
     status = "disabled";
@@ -58,13 +59,13 @@
 		
 		Third_layer {
 			bindings = <
-// +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
-// |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
-   &to Base       &none      &none           &kp UP_ARROW    &none            &none                                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
-   &kp LSHFT   	  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
-   &kp LCTRL      &none      &none           &none           &none            &none     &none      &none                &kp RET     &kp CAPS    &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+// +--------------+----------+----------+---------------+----------+----------+                                                                    +----------+----------+----------+----------+----------+----------+
+// |              |          |          |               |          |          |                                                                    |         |          |          |          |          |          |
+   &to Base       &none      &none           &kp UP_ARROW    &none            &none                                                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp MINUS
+   &kp LSHFT   	  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                                                                &to Base      &to Second    &to Third     &to Fourth    &to Fifth     &mo Sixth
+   &kp LCTRL      &none      &none           &none           &none            &none     &none      &none                &bt BT_CLR  &out OUT_TOG   &none         &none         &none         &none         &none         &none
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                     &none 	     &kp DELETE       &kp SPC   &kp BSPC   &kp RET              &kp RALT    &kp RET	&kp BSPC   &kp DEL    &kp DEL
+	                                     &none 	     &kp DELETE       &kp SPC   &kp BSPC   &kp RET              &none       &kp RET	   &kp BSPC      &kp DEL       &bt BT_CLR
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
