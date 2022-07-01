@@ -12,6 +12,7 @@
 
 #define Base   0
 #define Second 1
+#define Third 1
 
 &right_encoder {
     status = "disabled";
@@ -38,6 +39,22 @@
 		};
 		
 		Second_layer {
+			bindings = <
+// +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
+// |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
+   &kp ESC        &kp Q      &kp W      &kp F           &kp P      &kp G                                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
+   &kp LSHFT   	  &kp A      &kp R      &kp S           &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
+   &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp PSCRN                &kp RET       &kp CAPS   &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+// +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
+	                                &kp TAB 	&kp BSPC   &kp SPC    &kp RET         &kp RET                  &kp RALT      &kp RET	&kp BSPC   &kp DEL    &kp DEL
+//                                      |               |          |          |               |          |             |             |          |          |          |          |
+//                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
+			>;
+			
+			sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp PG_UP PG_DN>;
+		};
+		
+		Third_layer {
 			bindings = <
 // +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
 // |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
