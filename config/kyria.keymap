@@ -77,11 +77,11 @@
 			bindings = <
 // +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
 // |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
-   &kp ESC  &kp NUMBER_1  &kp Q      &kp W         &kp E         &kp R                                                                    &kp LEFT_ARROW   &none         &none   &none   &none  &noneS
+   &kp ESC  &kp NUMBER_1  &kp Q      &kp W         &kp E         &kp R                                                                    &kp LEFT_ARROW   &none         &none   &none   &none  &none
    &kp TAB  &kp LSHFT     &kp A      &kp S         &kp D         &kp F                                                                    &kp DOWN_ARROW   &kp UP_ARROW  &none   &none   &none  &none
    &kp F1   &kp LCTRL     &kp Z      &kp X         &kp C         &kp V      &kp G   &kp M                               &none    &none    &kp RIGHT_ARROW  &none         &none   &none   &none  &none
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                             &kp LEFT_ALT  &kp NUMBER_3  &kp SPC    &none     &kp RET                           &none   &kp RET   &mo Base         &none         &mo Base
+	                             &kp LEFT_ALT  &kp NUMBER_3  &kp SPC    &none     &kp RET                           &none    &kp RET   &mo Base        &none         &mo Base
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
