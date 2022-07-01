@@ -65,7 +65,7 @@
    &kp LSHFT   	  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                                                                &to Base      &to Second    &to Third     &to Fourth    &to Fifth     &mo Sixth
    &kp LCTRL      &none      &none           &none           &none            &none     &none      &none                &bt BT_CLR  &out OUT_TOG   &none         &none         &none         &none         &none         &none
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                     &none 	     &kp DELETE       &kp SPC   &kp BSPC   &kp RET              &none       &kp RET	   &kp BSPC      &kp DEL       &bt BT_CLR
+	                                     &none 	     &kp DELETE       &kp SPC   &kp BSPC   &kp RET              &none       &trans	   &kp K_COPY    &kp K_PASTE   &kp K_CUT
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
