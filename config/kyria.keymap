@@ -11,7 +11,6 @@
 
 
 #define Base   0
-#define L1   0
 
 &right_encoder {
     status = "disabled";
@@ -29,7 +28,7 @@
    &kp LSHFT   	  &kp A      &kp R      &kp S           &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
    &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp PSCRN                &kp RET       &kp CAPS   &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                &kp TAB 	&kp BSPC   &kp SPC    &mo L1          &kp RET                  &kp RALT      &mo L2	&kp BSPC   &kp DEL    &kp DEL
+	                                &kp TAB 	&kp BSPC   &kp SPC    &kp RET         &kp RET                  &kp RALT      &kp RET	&kp BSPC   &kp DEL    &kp DEL
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
