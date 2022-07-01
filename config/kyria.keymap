@@ -61,7 +61,7 @@
 			bindings = <
 // +--------------+----------+----------+---------------+----------+----------+                                                                    +----------+----------+----------+----------+----------+----------+
 // |              |          |          |               |          |          |                                                                    |         |          |          |          |          |          |
-   &to Base       &none      &none           &kp UP_ARROW    &none            &none                                                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp MINUS
+   &to Base       &none      &none           &kp UP_ARROW    &none            &none                                                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
    &kp LSHFT   	  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                                                                &to Base      &to Second    &to Third     &to Fourth    &to Fifth     &mo Sixth
    &kp LCTRL      &none      &none           &none           &none            &none     &none      &none                &bt BT_CLR  &out OUT_TOG   &none         &none         &none         &none         &none         &none
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
@@ -77,11 +77,11 @@
 			bindings = <
 // +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
 // |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
-   &kp ESC        &kp Q      &kp W      &kp F           &kp P      &kp G                                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
-   &kp LSHFT   	  &kp A      &kp R      &kp S           &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
-   &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp PSCRN                &kp RET       &kp CAPS   &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+   &kp ESC  &kp NUMBER_1  &kp Q      &kp W         &kp E         &kp R                                                                    &kp LEFT_ARROW   &none         &none   &none   &none  &noneS
+   &kp TAB  &kp LSHFT     &kp A      &kp S         &kp D         &kp F                                                                    &kp DOWN_ARROW   &kp UP_ARROW  &none   &none   &none  &none
+   &kp F1   &kp LCTRL     &kp Z      &kp X         &kp C         &kp V      &kp G   &kp M                               &none    &none    &kp RIGHT_ARROW  &none         &none   &none   &none  &none
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
-	                                &kp TAB 	&kp BSPC   &kp SPC    &kp RET         &kp RET                  &kp RALT      &kp RET	&kp BSPC   &kp DEL    &kp DEL
+	                             &kp LEFT_ALT  &kp NUMBER_3  &kp SPC    &none     &kp RET                           &none   &kp RET   &mo Base         &none         &mo Base
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
 //                                      +---------------+----------+----------+----------+---------------+             +-------------+--------------+----------+----------+----------+
 			>;
