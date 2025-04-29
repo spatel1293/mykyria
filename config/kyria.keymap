@@ -30,9 +30,9 @@
 			bindings = <
 // +--------------+----------+----------+---------------+----------+----------+                                                                 +----------+----------+----------+----------+----------+----------+
 // |              |          |          |               |          |          |                                                                 |         |          |          |          |          |          |
-   &kp ESC        &kp Q      &kp W      &kp F           &kp P      &kp G                                                                        &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
-   &kp LSHFT   	  &kp A      &kp R      &kp S           &kp T      &kp D                                                                        &kp H      &kp N      &kp E      &kp I      &kp O      &kp SQT
-   &kp LCTRL      &kp Z      &kp X      &kp C           &kp V      &kp B      &kp LMETA       &kp PSCRN                &kp RET       &kp CAPS   &kp K      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+   &kp ESC        &kp B      &kp L      &kp D           &kp W      &kp Z                                                                        &kp F      &kp F      &kp O      &kp U      &kp J   	    &kp MINUS
+   &kp LSHFT   	  &kp N      &kp R      &kp T           &kp S      &kp G                                                                        &kp Y      &kp H      &kp A      &kp E      &kp I    	    &kp BACKSLASH
+   &kp LCTRL      &kp Q      &kp X      &kp M           &kp C      &kp V      &kp LMETA       &kp PSCRN                &kp RET       &kp CAPS   &kp K      &kp P      &kp DOT  	 &kp COMMA  &kp FRSDTDSLH   &kp RSHFT
 // +--------------+----------+----------+---------------+----------+----------+---------------+----------+             +-------------+--------------+----------+----------+----------+----------+----------+----------+
 	                                &kp TAB 	&kp BSPC   &kp SPC    &mo Second      &kp RET                  &kp RALT      &mo Third	&kp BSPC   &kp DEL    &kp RALT
 //                                      |               |          |          |               |          |             |             |          |          |          |          |
